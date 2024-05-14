@@ -24,22 +24,15 @@ You can download checkpoints of FSE as follows:
 
 - For `MIMIC-CXR`, you can download checkpoints from [here](https://pan.baidu.com/s/17-hlaUR6dPgwhXWhZyw2tQ), and its code is `MK13`.
 
-## Datasets
-
-We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.
-
-- For `IU X-Ray`, you can download medical images from [here](https://drive.google.com/file/d/1c0BXEuDy8Cmm2jfN0YYGkQxFZd2ZIoLg/view?usp=sharing).
+## MIMIC-CXR Datasets
 
 - For `MIMIC-CXR`, you can download medical images from [here](https://physionet.org/content/mimic-cxr/2.0.0/).
 
 - You can download **medical reports** from [here](https://pan.baidu.com/s/1bMbee6XuyXhhLUZM8kfbEw), and its code is `MK13`.
 
-NOTE: The `IU X-Ray` dataset is of small size, and thus the variance of the results is large.
-There have been some works using `MIMIC-CXR` only and treating the whole `IU X-Ray` dataset as an extra test set.
+## Reproducibility on MIMIC-CXR (SEI-1)
 
-## Reproducibility on MIMIC-CXR
-
-### Extracting factual serialization using structural entities approach
+### Extracting factual entity sequence using structural entities extraction approach
 
 1. Config RadGraph environment based on `knowledge_encoder/factual_serialization.py`
 2. Set the local path in `config/finetune_config.yaml` for images and checkpoints, such as `mimic_cxr_image_dir` and `chexbert_model_checkpoint`
@@ -56,6 +49,11 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 1. Config `--load` argument in `pretrain_inference_mimic_cxr.sh`
 2. Run `bash pretrain_inference_mimic_cxr.sh` to retrieve similar historical cases for each sample, forming `mimic_cxr_annotation_sen_best_reports_keywords_20.json`.
 
+### Preprocessing the patient-specific indications
+
+1. Config `report_dir` in main function `knowledge_encoder/preprocessing`. Note that the radiology report can be derived from [here](https://physionet.org/content/mimic-cxr/2.0.0/)
+2. Run `python knowledge_encoder/preprocessing_indication_section` to extract and preprocess the indication section in radiology reports, forming `mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json`.
+
 ### Conducting the fine-tuning stage (i.e., training report generation module)
 
 1. Config `--load` argument in `finetune_mimic_cxr.sh`
@@ -63,7 +61,7 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 
 ### Test 
 
-1. You must download the medical images, their corresponding reports (i.e., `mimic_cxr_annotation_sen_best_reports_keywords_20.json`),  and checkpoints (i.e., `finetune_model_best.pth`) in Section Datasets and Section Checkpoints, respectively.
+1. You must download the medical images, their corresponding reports (i.e., `mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json`),  and checkpoints (i.e., `SEI-1-finetune-model-best.pth`) in Section Datasets and Section Checkpoints, respectively.
 
 2. Config `--load` and `--mimic_cxr_ann_path`arguments in `test_mimic_cxr.sh`
 
