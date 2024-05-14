@@ -6,7 +6,7 @@ CUDA_VISIBLE_DEVICES=0 python main_iu_finetune_v0201.py \
 --version ft_100_top0 \
 --max_seq_len 100 \
 --epochs 50 \
---load r"D:\博士\写文章\文章3\SEI-1-checkpoint/SEI-1-finetune-model-best.pth" \
+--load r"SEI-1-finetune-model-best.pth" \
 --freeze_text_encoder \
 --sk_type keywords \
 --is_add_indication \
