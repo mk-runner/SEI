@@ -24,8 +24,6 @@ You can download checkpoints of FSE as follows:
 
 - For `MIMIC-CXR`, you can download checkpoints from [here](https://pan.baidu.com/s/17-hlaUR6dPgwhXWhZyw2tQ), and its code is `MK13`.
 
-- For `IU X-Ray`, you can download checkpoints from [here](https://pan.baidu.com/s/1SPSNGKEwSKlywUVDFxv_eg), and its code is `MK13`.
-
 ## Datasets
 
 We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.
@@ -49,7 +47,7 @@ There have been some works using `MIMIC-CXR` only and treating the whole `IU X-R
 
 Notably,`chexbert.pth` can download from [here](https://stanfordmedicine.app.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9). `distilbert-base-uncased` can download from [here](https://huggingface.co/distilbert/distilbert-base-uncased). `bert-base-uncased` can download from [here](https://huggingface.co/google-bert/bert-base-uncased). `radgraph` can download from [here](https://physionet.org/content/radgraph/1.0.0/). `scibert_scivocab_uncased` can download from [here](https://huggingface.co/allenai/scibert_scivocab_uncased). 
 
-### Conducting the first stage (i.e., training cross-modal alignment module)
+### Conducting the pre-training stage (i.e., training cross-modal alignment module)
 
 Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 
@@ -58,7 +56,7 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 1. Config `--load` argument in `pretrain_inference_mimic_cxr.sh`
 2. Run `bash pretrain_inference_mimic_cxr.sh` to retrieve similar historical cases for each sample, forming `mimic_cxr_annotation_sen_best_reports_keywords_20.json`.
 
-### Conducting the second stage (i.e., training report generation module)
+### Conducting the fine-tuning stage (i.e., training report generation module)
 
 1. Config `--load` argument in `finetune_mimic_cxr.sh`
 2. Run `bash finetune_mimic_cxr.sh` to generate reports based on similar historical cases.
@@ -75,11 +73,6 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 
 <div align=center><img src="sei_on_mimic_cxr.jpg"></div>
 
-## Reproducibility on IU X-ray
-
-### Results on IU-Xray are presented as follows:
-
-<div align=center><img src="sei_on_iu_xray.jpg"></div>
 
 ## Acknowledgement
 
