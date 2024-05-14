@@ -73,13 +73,13 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 
 4. Results on MIMIC-CXR are presented as follows:
 
-<div align=center><img src="FSE_on_mimic_cxr.jpg"></div>
+<div align=center><img src="sei_on_mimic_cxr.jpg"></div>
 
 ## Reproducibility on IU X-ray
 
 ### Results on IU-Xray are presented as follows:
 
-<div align=center><img src="FSE_on_iu_xray.jpg"></div>
+<div align=center><img src="sei_on_iu_xray.jpg"></div>
 
 ## Acknowledgement
 
