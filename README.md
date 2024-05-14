@@ -22,13 +22,13 @@ If you use or extend our work, please cite our paper at EMNLP-2020.
 
 You can download checkpoints of FSE as follows:
 
-- For `MIMIC-CXR`, you can download checkpoints from [here](https://pan.baidu.com/s/17-hlaUR6dPgwhXWhZyw2tQ), and its code is `MK13`.
+- For `MIMIC-CXR`, you can download checkpoints from [here](https://pan.baidu.com/s/15SW1k3xZ57S06FUeqpclAA), and its code is `MK13`.
 
 ## MIMIC-CXR Datasets
 
 - For `MIMIC-CXR`, you can download medical images from [here](https://physionet.org/content/mimic-cxr/2.0.0/).
 
-- You can download **medical reports** from [here](https://pan.baidu.com/s/1bMbee6XuyXhhLUZM8kfbEw), and its code is `MK13`.
+- You can download **medical reports** from [here](https://pan.baidu.com/s/1u4NR2H2LBPsCnQEKNfx2aQ), and its code is `MK13`.
 
 ## Reproducibility on MIMIC-CXR (SEI-1)
 
