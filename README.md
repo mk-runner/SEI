@@ -79,7 +79,7 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 
 - [R2Gen](https://github.com/zhjohnchan/R2Gen) Some codes are adapted based on R2Gen.
 - [R2GenCMN](https://github.com/zhjohnchan/R2GenCMN) Some codes are adapted based on R2GenCMN.
-- [MGCA](https://github.com/HKU-MedAI/MGCA) Some codes are adapted based on R2GenCMN.
+- [MGCA](https://github.com/HKU-MedAI/MGCA) Some codes are adapted based on MGCA.
 
 ## References
 
