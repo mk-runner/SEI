@@ -58,7 +58,7 @@ You can download checkpoints of FSE as follows:
    conda activate dygiepp
     ```
    
-2. Config `radgraph_model_path` and `ann_path` in `knowledge_encoder/see.py`. The former can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/), and the latter can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
+2. Config `radgraph_model_path` and `ann_path` in `knowledge_encoder/see.py`. The former can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/), and the latter, `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
 3. Run the `knowledge_encoder/see.py` to extract factual entity sequence for each report.
 4. Finally, the `annotation.json` becomes `mimic_cxr_annotation_sen.json` that is identical to `new_ann_file_name` variable in `see.py`
 
