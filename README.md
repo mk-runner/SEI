@@ -4,7 +4,7 @@ Structural Entities Extraction and Patient Indications Incorporation for Chest X
 
 ## Citations
 
-If you use or extend our work, please cite our paper at EMNLP-2020.
+If you use or extend our work, please cite our paper at ***.
 
 ```
 
@@ -70,6 +70,9 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 4. Results on MIMIC-CXR are presented as follows:
 
 <div align=center><img src="sei_on_mimic_cxr.jpg"></div>
+
+
+5. Next, the code for this project will be streamlined.
 
 
 ## Acknowledgement
