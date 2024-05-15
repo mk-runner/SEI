@@ -28,7 +28,7 @@ You can download checkpoints of FSE as follows:
 
 - For `MIMIC-CXR`, you can download medical images from [here](https://physionet.org/content/mimic-cxr/2.0.0/).
 
-- You can download `medical reports` from [here](https://pan.baidu.com/s/1u4NR2H2LBPsCnQEKNfx2aQ), and its code is `MK13`. Note that the `case` is in `knowledge_encoder/case.json`
+- You can download `medical reports` from [here](https://drive.google.com/file/d/1iWdFINSAJ7F97I4rTGddIziJAb-1sL3l/view?usp=drive_link). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/), and its `toy case` is in `knowledge_encoder/case.json`
 
 ## Reproducibility on MIMIC-CXR (SEI-1)
 
