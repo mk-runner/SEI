@@ -32,8 +32,6 @@ You can download checkpoints of FSE as follows:
 
 ## Reproducibility on MIMIC-CXR (SEI-1)
 
-## Reproducibility on MIMIC-CXR
-
 ### Structural entities extraction (SEE) approach
 
 1. Config RadGraph environment based on `knowledge_encoder/factual_serialization.py`
