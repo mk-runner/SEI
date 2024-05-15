@@ -1,0 +1,386 @@
+{
+  "train": [
+    {
+      "id": "02aa804e-bde0afdd-112c0b34-7bc16630-4e384014",
+      "study_id": 50414267,
+      "subject_id": 10000032,
+      "report": "There is no focal consolidation , pleural effusion or pneumothorax . Bilateral nodular opacities that most likely represent nipple shadows . The cardiomediastinal silhouette is normal . Clips project over the left lung , potentially within the breast . The imaged upper abdomen is unremarkable . Chronic deformity of the posterior left sixth and seventh ribs are noted .",
+      "image_path": [
+        "p10/p10000032/s50414267/02aa804e-bde0afdd-112c0b34-7bc16630-4e384014.jpg"
+      ],
+      "core_findings": [
+        "no focal consolidation pleural effusion pneumothorax",
+        "Bilateral nodular opacities nipple shadows",
+        "cardiomediastinal silhouette normal",
+        "Clips left lung breast",
+        "upper abdomen unremarkable",
+        "Chronic deformity posterior left sixth seventh ribs"
+      ],
+      "specific_knowledge": {
+        "reports": [
+          "A chronic , displaced fracture of the right mid clavicle is unchanged in comparison to prior studies dating at least in ___ . The cardiomediastinal silhouette is within normal limits . The hila are unremarkable . There is no focal lung consolidation . Postradiation fibrosis at the lung apices was better evaluated on prior CT . There is no pulmonary vascular congestion or pulmonary edema . There is no pneumothorax or pleural effusion . Surgical chain sutures seen in the lingula , as on prior CT . Surgical clips overlie the left hemidiaphragm and left hemi abdomen , also unchanged .",
+          "The lungs are clear without focal consolidation , pleural effusion or pneumothorax . No pulmonary edema is seen . Bibasilar opacifications are due to the patient's bilateral breast implants . The heart size is normal . The mediastinal and hilar contours are normal . There has been interval removal of a right PICC . An IVC filter and left upper quadrant gastrostomy tube is noted .",
+          "As compared to the previous radiograph , there is marked improvement in lung volumes , reflecting improved ventilation . There is no evidence of pneumonia , no pulmonary edema . No pleural effusions . Old displaced rib fractures on the right with small accompanying pleural thickening .",
+          "Minor left basilar atelectasis is seen without definite focal consolidation . No pleural effusion or pneumothorax is seen . The cardiac and mediastinal silhouettes are unremarkable . There is anterior wedging of the L1 vertebral body , likely grossly stable as compared to CT from ___ .",
+          "The lungs are mildly overinflated . Heart size normal . No pleural effusion or pneumothorax .",
+          "Hazy opacity in the left lower lobe is seen only on the frontal view , and likely represents atelectasis . The right lung is clear . Heart size is normal . No pleural effusions or pneumothorax . Moderate acromioclavicular arthropathy .",
+          "The lungs are well expanded and clear . There is no focal consolidation , effusion , or pneumothorax . Cardiac and mediastinal contours are normal .",
+          "Diffuse mild basilar atelectasis is seen . There is no focal consolidation . Below the supraclinoid The cardiac and mediastinal silhouettes are stable . Evidence of DISH is seen along the thoracic spine .",
+          "Possible mild hyperinflation with slight flattening of the diaphragms raising the possibility of mild background emphysema . The cardiomediastinal silhouette is unchanged , without cardiomegaly . No CHF focal infiltrate or effusion is detected . No free air seen beneath the diaphragm .",
+          "Heart size is normal . Mediastinal and hilar contours are unremarkable . Pulmonary vasculature is normal . Lungs are clear . No pleural effusion , focal consolidation or pneumothorax is present . There are mild degenerative changes seen in the thoracic spine .",
+          "AP portable upright view of the chest . There is no focal consolidation , effusion , or pneumothorax . The cardiomediastinal silhouette is normal . Imaged osseous structures are intact .",
+          "The lungs are essentially clear . There is no effusion or pneumothorax . Cardiomediastinal silhouette is within normal limits . No acute osseous abnormalities .",
+          "The lungs are clear without focal consolidation . No large pleural effusion is seen . There is no evidence of pneumothorax . The cardiac and mediastinal silhouettes are unremarkable .",
+          "The lungs are clear . There is no pleural effusion , pneumothorax , or focal airspace consolidation to suggest pneumonia . The cardiomediastinal silhouette is unremarkable . An old right rib deformity is again appreciated . Mild degenerative changes are noted at the acromioclavicular joints .",
+          "Cardiac size is normal . The lungs are clear . There is no pneumothorax or pleural effusion . Slight irregular contour to the right eighth and ninth ribs may represent nondisplaced fractures .",
+          "The lungs are clear . Heart size and mediastinal contours are normal . There is no pleural effusion or pneumothorax . Osseous structures are intact .",
+          "Heart size is top normal . Mediastinal and hilar contours are unremarkable . Pulmonary vascularity is normal . Minimal atelectasis is noted in the lung bases . No focal consolidation , pleural effusion or pneumothorax is seen . No acute osseous abnormalities are present .",
+          "The cardiomediastinal silhouette and pulmonary vasculature are unremarkable . No definite consolidation is identified . There is mild basilar atelectasis . There is no pleural effusion or pneumothorax .",
+          "The lungs are clear without focal consolidation , effusion , or pneumothorax . Cardiomediastinal silhouette is within normal limits . No acute osseous abnormalities identified .",
+          "Heart size is normal . The mediastinal and hilar contours are normal . The pulmonary vasculature is normal . Lungs are clear . No pleural effusion or pneumothorax is seen . There are no acute osseous abnormalities ."
+        ],
+        "sk_keywords": [
+          [
+            "chronic displaced fracture right mid clavicle unchanged",
+            "cardiomediastinal silhouette within normal limits",
+            "hila unremarkable",
+            "no focal lung consolidation",
+            "Postradiation fibrosis lung apices",
+            "no pulmonary vascular congestion pulmonary edema",
+            "no pneumothorax pleural effusion",
+            "Surgical chain sutures lingula",
+            "Surgical clips left hemidiaphragm left hemi abdomen unchanged"
+          ],
+          [
+            "no lungs clear focal consolidation pleural effusion pneumothorax",
+            "no pulmonary edema",
+            "Bibasilar opacifications bilateral breast implants",
+            "heart size normal",
+            "mediastinal hilar contours normal",
+            "no right PICC",
+            "IVC filter left upper quadrant gastrostomy tube"
+          ],
+          [
+            "marked improvement lung volumes improved ventilation",
+            "no pneumonia pulmonary edema",
+            "no pleural effusions",
+            "Old displaced rib fractures right small pleural thickening"
+          ],
+          [
+            "no Minor left basilar atelectasis focal consolidation",
+            "no pleural effusion pneumothorax",
+            "cardiac mediastinal silhouettes unremarkable",
+            "maybe anterior wedging L1 vertebral body grossly stable"
+          ],
+          [
+            "lungs mildly overinflated",
+            "Heart size normal",
+            "no pleural effusion pneumothorax"
+          ],
+          [
+            "maybe Hazy opacity left lower lobe atelectasis",
+            "right lung clear",
+            "Heart size normal",
+            "no pleural effusions pneumothorax",
+            "Moderate acromioclavicular arthropathy"
+          ],
+          [
+            "lungs well expanded clear",
+            "no focal consolidation effusion pneumothorax",
+            "Cardiac mediastinal contours normal"
+          ],
+          [
+            "Diffuse mild basilar atelectasis",
+            "no focal consolidation",
+            "Below supraclinoid cardiac mediastinal silhouettes stable",
+            "DISH thoracic spine"
+          ],
+          [
+            "maybe mild hyperinflation slight flattening diaphragms mild background emphysema",
+            "no cardiomediastinal silhouette unchanged cardiomegaly",
+            "no CHF focal infiltrate effusion",
+            "no free air beneath diaphragm"
+          ],
+          [
+            "Heart size normal",
+            "Mediastinal hilar contours unremarkable",
+            "Pulmonary vasculature normal",
+            "Lungs clear",
+            "no pleural effusion focal consolidation pneumothorax",
+            "mild degenerative changes thoracic spine"
+          ],
+          [
+            "no focal consolidation effusion pneumothorax",
+            "cardiomediastinal silhouette normal",
+            "osseous structures intact"
+          ],
+          [
+            "lungs essentially clear",
+            "no effusion pneumothorax",
+            "Cardiomediastinal silhouette within normal limits",
+            "no acute osseous abnormalities"
+          ],
+          [
+            "no lungs clear focal consolidation",
+            "no large pleural effusion",
+            "no pneumothorax",
+            "cardiac mediastinal silhouettes unremarkable"
+          ],
+          [
+            "lungs clear",
+            "no pleural effusion pneumothorax focal airspace consolidation pneumonia",
+            "cardiomediastinal silhouette unremarkable",
+            "old right rib deformity",
+            "Mild degenerative changes acromioclavicular joints"
+          ],
+          [
+            "Cardiac size normal",
+            "lungs clear",
+            "no pneumothorax pleural effusion",
+            "maybe Slight irregular contour right eighth ninth ribs nondisplaced fractures"
+          ],
+          [
+            "lungs clear",
+            "Heart size mediastinal contours normal",
+            "no pleural effusion pneumothorax",
+            "Osseous structures intact"
+          ],
+          [
+            "Heart size top normal",
+            "Mediastinal hilar contours unremarkable",
+            "Pulmonary vascularity normal",
+            "Minimal atelectasis lung bases",
+            "no focal consolidation pleural effusion pneumothorax",
+            "no acute osseous abnormalities"
+          ],
+          [
+            "cardiomediastinal silhouette pulmonary vasculature unremarkable",
+            "no consolidation",
+            "mild basilar atelectasis",
+            "no pleural effusion pneumothorax"
+          ],
+          [
+            "no lungs clear focal consolidation effusion pneumothorax",
+            "Cardiomediastinal silhouette within normal limits",
+            "no acute osseous abnormalities"
+          ],
+          [
+            "Heart size normal",
+            "mediastinal hilar contours normal",
+            "pulmonary vasculature normal",
+            "Lungs clear",
+            "no pleural effusion pneumothorax",
+            "no acute osseous abnormalities"
+          ]
+        ]
+      },
+      "impression": "No acute cardiopulmonary process.",
+      "comparison": "None.",
+      "indication": "___F with new onset ascites // eval for infection",
+      "findings": "There is no focal consolidation, pleural effusion or pneumothorax. Bilateral nodular opacities that most likely represent nipple shadows. The cardiomediastinal silhouette is normal. Clips project over the left lung, potentially within the breast. The imaged upper abdomen is unremarkable. Chronic deformity of the posterior left sixth and seventh ribs are noted.",
+      "examination": "CHEST (PA AND LAT)",
+      "indication_core_findings": "woman with new onset ascites eval for infection"
+    },
+  ],
+  "val":[
+    {
+      "id": "1fa79752-9ddaf5b5-2120ae82-9fec50d6-51f48d1f",
+      "study_id": 51180958,
+      "subject_id": 10003502,
+      "report": "No evidence of consolidation to suggest pneumonia is seen . There is some retrocardiac atelectasis . A small left pleural effusion may be present . No pneumothorax is seen . No pulmonary edema . A right granuloma is unchanged . The heart is mildly enlarged , unchanged . There is tortuosity of the aorta .",
+      "image_path": [
+        "p10/p10003502/s51180958/1fa79752-9ddaf5b5-2120ae82-9fec50d6-51f48d1f.jpg"
+      ],
+      "core_findings": [
+        "no consolidation pneumonia",
+        "some retrocardiac atelectasis",
+        "maybe small left pleural effusion",
+        "no pneumothorax",
+        "no pulmonary edema",
+        "right granuloma unchanged",
+        "heart mildly enlarged unchanged",
+        "tortuosity aorta"
+      ],
+      "specific_knowledge": {
+        "reports": [
+          "Patient rotation limits assessment . Heart size is difficult to evaluate . Lung volumes are low . There is a small left pleural effusion with adjacent atelectasis , decreased from the prior examination . Atelectasis at the right base has increased . There is no focal consolidation . No pneumothorax . Reported rib fractures are not adequately evaluated .",
+          "AP upright and lateral views of the chest provided . The heart is mildly enlarged . Pulmonary vascular congestion is noted with mild interstitial edema . There are small pleural effusions noted bilaterally . Multiple surgical clips in the upper abdomen noted . No convincing evidence for pneumonia . No pneumothorax . Bony structures appear intact . Mild compression deformity noted in the thoracolumbar junction which is chronic .",
+          "As compared to the previous radiograph , there is no relevant change . The known small left pneumothorax is still not visible . The pre-existing rib changes as well as the cardiomegaly with mild fluid overload and the changes in both humeral heads are constant .",
+          "In comparison with the study of ___ , the patient has taken a slightly better inspiration and the left subclavian catheter has been removed . There is continued enlargement of the cardiac silhouette with mild pulmonary vascular congestion . Retrocardiac opacification obscures the hemidiaphragm and is consistent with substantial volume loss in the left lower lobe .",
+          "Frontal and lateral views of the chest were obtained . There is small-to-moderate left and small right bilateral pleural effusions . There has been interval development in right lower lobe opacity worrisome for infection or aspiration . Additionally , there is a rather linear prominent opacity in the left mid lung which may be due to moderate atelectasis or scarring . However , additional site of infection or aspiration is not excluded . No definite pneumothorax is seen . The cardiac silhouette remains enlarged . The mediastinal contours are stable .",
+          "Cardiac silhouette size remains moderately enlarged . Mediastinal contour is unremarkable . There is a persistent moderate left pleural effusion with associated left basilar opacity likely reflective of atelectasis . Increased patchy opacity within the right lung base is also likely reflective of atelectasis . No overt pulmonary edema is demonstrated . There is no pneumothorax .",
+          "The technical quality of the radiograph is limited , with subsequent limited assessment of the lung parenchyma . Moderate cardiomegaly , bilateral small pleural effusions with areas of atelectasis at the lung bases . These changes are relatively constant as compared to the previous examination . Stent appears to be implanted in the superior vena cava . There is no evidence of pneumothorax . Mild interstitial fluid overload could be present . A tubular device projects over the paraspinal region at the level of the right upper quadrant and is only incompletely imaged on the lateral radiograph .",
+          "Frontal and lateral views of the chest were obtained . There has been interval development of small bilateral pleural effusions with overlying atelectasis , underlying basilar consolidation is not excluded in the appropriate clinical setting . The cardiac silhouette is mildly enlarged . The aorta is calcified and tortuous . No overt pulmonary edema is seen . The bones are diffusely osteopenic . The left humeral head is high riding which can be seen in rotator cuff disease . Again seen are at least two ossific structures projecting over the right scapula which measure up to 1.2 cm , also present on the prior , may represent loose bodies .",
+          "Elevation of left hemidiaphragm is unchanged since ___ . Superimposed small bilateral pleural effusions have improved . There is no acute lung process . Cardiomegaly , which is severe , is unchanged . There is no pneumothorax .",
+          "New consolidation seen in the left lower lobe , is concerning for pneumonia . There are no pleural effusion is present . There is no pneumothorax . The cardiomediastinal and hilar contours are stable , with mild cardiomegaly . Mild pulmonary edema is similar .",
+          "There are increased multifocal opacities concerning for pneumonia , greatest in the left lower lobe , however , also involving the lingula and likely within the right base as well . Cephalization of vasculature is suggestive of fluid overload . No pneumothorax is present . A small left pleural effusion is seen . There is mild cardiomegaly , changed . Recommend repeat after treatment to document resolution .",
+          "This exam is limited due to difficulty with patient positioning in the AP and lateral views . There is persistent left lower lobe collapse as seen on prior CT . There is no pneumothorax .",
+          "Patient rotation slightly limits the exam . Heart size remains mild to moderately enlarged . Mild pulmonary edema is present . Retrocardiac opacification and small to moderate size left pleural effusion are new compared with the previous exam . Small right pleural effusion is also seen . Rounded opacity in the right cardiophrenic angle is unchanged and likely reflective of a pericardial cyst . No pneumothorax is present . Degenerative changes of both acromioclavicular joints are noted .",
+          "A persistent right hilar opacity is less conspicuous . Moderate pulmonary edema and moderate to severe cardiomegaly are unchanged . Small bilateral pleural effusions . No pneumothorax .",
+          "There is a moderate left pleural effusion including fluid seen tracking in the left major fissure . Left base atelectasis is also seen . There has been interval significant decrease in the previously seen right-sided opacity with possible minimal residual remaining . A small right pleural effusion is also present . The cardiac and mediastinal silhouettes are stable . No pneumothorax is seen .",
+          "Compared to the prior study there is a slight increase in the retrocardiac opacity , otherwise no significant interval change",
+          "A single portable AP upright view of the chest was obtained . There is a moderate-sized left pleural effusion and adjacent compressive atelectasis ; however , pneumonia is not excluded . Rounded opacity along the right hilus may represent a mass . There is pulmonary vascular engorgement without pulmonary edema . Severe dextroconvex thoracic scoliosis is noted . There is no left effusion or pneumothorax . Deformity of the left humerus likely reflects sequelae of an old injury .",
+          "The mediastinum is widened secondary to known ascending aortic aneurysm , but is unchanged from prior exams . There is no new mediastinal widening . The cardiac silhouette is stably enlarged . Bilateral moderate pleural effusions are unchanged with associated bibasilar atelectasis . There are no new consolidations . There is no pneumothorax .",
+          "Single portable view of the chest is compared to previous exam from ___ . Again seen is elevation of the left hemidiaphragm . Blunting of the costophrenic angles bilaterally suggestive of small effusions . Right basilar opacity is again seen . Left lung is grossly clear . Cardiomediastinal silhouette is unchanged as are the osseous and soft tissue structures .",
+          "In comparison with chest radiographs from ___ , there is little overall change . Bibasilar and left retrocardiac opacities are stable , likely reflecting atelectasis , though superimposed pneumonia cannot be definitively excluded in the appropriate clinical setting . No new focal consolidation . No pneumothorax . Small bilateral effusions are stable . There is mild central vascular congestion with overt pulmonary edema . Gaseous distention of loop of bowel in the left upper quadrant , presumably stomach , is unchanged ."
+        ],
+        "sk_keywords": [
+          [
+            "Heart size",
+            "Lung volumes low",
+            "small left pleural effusion adjacent atelectasis decreased",
+            "Atelectasis right base increased",
+            "no focal consolidation",
+            "no pneumothorax",
+            "maybe rib fractures"
+          ],
+          [
+            "heart mildly enlarged",
+            "Pulmonary vascular congestion mild interstitial edema",
+            "small pleural effusions bilaterally",
+            "Multiple surgical clips upper abdomen",
+            "no pneumonia",
+            "no pneumothorax",
+            "Bony structures intact",
+            "Mild compression deformity thoracolumbar junction chronic"
+          ],
+          [
+            "no small left pneumothorax",
+            "rib changes cardiomegaly mild fluid overload changes both humeral heads constant"
+          ],
+          [
+            "no slightly better inspiration left subclavian catheter",
+            "enlargement cardiac silhouette mild pulmonary vascular congestion",
+            "Retrocardiac opacification obscures hemidiaphragm substantial volume loss left lower lobe"
+          ],
+          [
+            "left small right bilateral pleural effusions",
+            "maybe right lower lobe opacity infection aspiration",
+            "maybe linear prominent opacity left mid lung moderate atelectasis scarring",
+            "maybe additional site infection aspiration",
+            "no pneumothorax",
+            "cardiac silhouette enlarged",
+            "mediastinal contours stable"
+          ],
+          [
+            "Cardiac silhouette size moderately enlarged",
+            "Mediastinal contour unremarkable",
+            "maybe moderate left pleural effusion left basilar opacity atelectasis",
+            "maybe Increased patchy opacity right lung base atelectasis",
+            "no overt pulmonary edema",
+            "no pneumothorax"
+          ],
+          [
+            "Moderate cardiomegaly bilateral small pleural effusions areas atelectasis lung bases",
+            "relatively constant",
+            "Stent superior vena cava",
+            "no pneumothorax",
+            "Mild interstitial fluid overload",
+            "tubular device paraspinal region right upper quadrant"
+          ],
+          [
+            "maybe small bilateral pleural effusions overlying atelectasis underlying basilar consolidation",
+            "cardiac silhouette mildly enlarged",
+            "aorta calcified tortuous",
+            "no overt pulmonary edema",
+            "bones diffusely osteopenic",
+            "left humeral head high riding rotator cuff disease",
+            "maybe two ossific structures right scapula loose bodies"
+          ],
+          [
+            "Elevation left hemidiaphragm unchanged",
+            "Superimposed small bilateral pleural effusions improved",
+            "no acute lung process",
+            "Cardiomegaly severe unchanged",
+            "no pneumothorax"
+          ],
+          [
+            "New consolidation left lower lobe pneumonia",
+            "no pleural effusion",
+            "no pneumothorax",
+            "cardiomediastinal hilar contours stable mild cardiomegaly",
+            "Mild pulmonary edema similar"
+          ],
+          [
+            "increased multifocal opacities pneumonia greatest left lower lobe lingula right base",
+            "Cephalization vasculature fluid overload",
+            "no pneumothorax",
+            "small left pleural effusion",
+            "mild cardiomegaly changed"
+          ],
+          [
+            "left lower lobe collapse",
+            "no pneumothorax"
+          ],
+          [
+            "Heart size mild moderately enlarged",
+            "Mild pulmonary edema",
+            "Retrocardiac opacification small moderate size left pleural effusion new",
+            "Small right pleural effusion",
+            "maybe Rounded opacity right cardiophrenic angle unchanged pericardial cyst",
+            "no pneumothorax",
+            "Degenerative changes both acromioclavicular joints"
+          ],
+          [
+            "right hilar opacity less conspicuous",
+            "Moderate pulmonary edema moderate severe cardiomegaly unchanged",
+            "Small bilateral pleural effusions",
+            "no pneumothorax"
+          ],
+          [
+            "moderate left pleural effusion fluid left major fissure",
+            "Left base atelectasis",
+            "maybe significant decrease opacity minimal residual",
+            "small right pleural effusion",
+            "cardiac mediastinal silhouettes stable",
+            "no pneumothorax"
+          ],
+          [
+            "no slight increase retrocardiac opacity interval"
+          ],
+          [
+            "maybe left pleural effusion adjacent compressive atelectasis pneumonia",
+            "maybe Rounded opacity right hilus mass",
+            "no pulmonary vascular engorgement pulmonary edema",
+            "Severe dextroconvex thoracic scoliosis",
+            "no left effusion pneumothorax",
+            "maybe Deformity left humerus sequelae old injury"
+          ],
+          [
+            "mediastinum widened ascending aortic aneurysm unchanged",
+            "no new mediastinal widening",
+            "cardiac silhouette stably enlarged",
+            "Bilateral moderate pleural effusions unchanged bibasilar atelectasis",
+            "no new consolidations",
+            "no pneumothorax"
+          ],
+          [
+            "elevation left hemidiaphragm",
+            "Blunting costophrenic angles bilaterally small effusions",
+            "Right basilar opacity",
+            "Left lung grossly clear",
+            "Cardiomediastinal silhouette unchanged soft tissue"
+          ],
+          [
+            "maybe Bibasilar left retrocardiac opacities stable atelectasis superimposed pneumonia",
+            "no new focal consolidation",
+            "no pneumothorax",
+            "Small bilateral effusions stable",
+            "no mild central vascular congestion overt pulmonary edema",
+            "Gaseous distention loop bowel left upper quadrant stomach unchanged"
+          ]
+        ]
+      },
+      "impression": "",
+      "comparison": "Multiple prior examinations, most recent dated ___.",
+      "indication": "Altered mental status and headache.",
+      "findings": "No evidence of consolidation to suggest pneumonia is seen. There is some retrocardiac atelectasis. A small left pleural effusion may be present. No pneumothorax is seen. No pulmonary edema. A right granuloma is unchanged. The heart is mildly enlarged, unchanged. There is tortuosity of the aorta.",
+      "examination": "",
+      "indication_core_findings": "altered mental status and headache"
+    },
+  ],
+  "test":[
+    {
+    }
+  ]
+ }
