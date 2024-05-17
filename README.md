@@ -38,7 +38,7 @@ You can download checkpoints of FSE as follows:
    ===================environmental setting=================
     Basic Setup (One-time activity)
 
-   a. Clone the DYGIE++ repository from: https://github.com/dwadden/dygiepp. This repository is managed by Wadden et al., authors of the paper Entity, Relation, and Event Extraction with Contextualized Span Representations (https://www.aclweb.org/anthology/D19-1585.pdf).
+   a. Clone the DYGIE++ repository from [here](https://github.com/dwadden/dygiepp). This repository is managed by Wadden et al., authors of the paper [Entity, Relation, and Event Extraction with Contextualized Span Representations](https://www.aclweb.org/anthology/D19-1585.pdf).
     ```bash
    git clone https://github.com/dwadden/dygiepp.git
     ```
