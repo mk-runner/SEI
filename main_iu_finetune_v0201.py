@@ -24,7 +24,7 @@ os.environ['TORCH_USE_CUDA_DSA'] = '1'
 os.environ['TOKENIZERS_PARALLELISM'] = 'true'
 import wandb
 
-os.environ["WANDB_API_KEY"] = 'f1064ce1cf22123c5b34de7bdb0aaca7d5801c95'
+os.environ["WANDB_API_KEY"] = '*********'
 os.environ["WANDB_MODE"] = "offline"
 
 
