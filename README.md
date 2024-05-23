@@ -1,6 +1,9 @@
 # SEI
 Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation
 
+# Tips
+After this paper is accepted, all code will be included in the [https://github.com/mk-runner/SEI](https://github.com/mk-runner/SEI).
+
 
 ## Citations
 
