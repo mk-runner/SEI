@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=0 python main_iu_finetune_v0201.py \
+CUDA_VISIBLE_DEVICES=0 python main_v0201.py \
 --task test \
 --data_name mimic_cxr \
 --mimic_cxr_ann_path "knowledge_encoder/mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json" \
