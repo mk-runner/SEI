@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=1 python main_v0201.py \
 --task pretrain \
---mimic_cxr_ann_path "/home/miao/data/Code/MSC-V1212-ablation-study/knowledge_encoder/mimic_cxr_annotation_sen.json" \
+--mimic_cxr_ann_path "knowledge_encoder/mimic_cxr_annotation_sen.json" \
 --data_name mimic_cxr \
 --version cxr_pretrain \
 --max_seq_len 100 \
