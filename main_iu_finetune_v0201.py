@@ -28,7 +28,7 @@ os.environ["WANDB_API_KEY"] = '*********'
 os.environ["WANDB_MODE"] = "offline"
 
 
-# wandb.login(key='f1064ce1cf22123c5b34de7bdb0aaca7d5801c95')
+# wandb.login(key='************')
 
 
 def main():
