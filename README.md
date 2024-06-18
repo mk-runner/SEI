@@ -7,7 +7,7 @@ After this paper is accepted, all code will be included in the [https://github.c
 
 ## Citations
 
-If you use or extend our work, please cite our paper at ***.
+If you use or extend our work, please cite our paper at MICCAI 2024.
 
 ```
 @misc{liu2024structural,
