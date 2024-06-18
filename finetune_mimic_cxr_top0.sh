@@ -6,7 +6,7 @@ CUDA_VISIBLE_DEVICES=1 python main_v0201.py \
 --version ft_100_top0 \
 --max_seq_len 100 \
 --epochs 50 \
---load "/home/miao/data/Code/MSC-V1212-ablation-study/results/mimic-cxr/pretrain/model_best.pth" \
+--load "pretrain/model_best.pth" \
 --freeze_text_encoder \
 --sk_type keywords \
 --is_add_indication \
