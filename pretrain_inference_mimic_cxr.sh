@@ -7,6 +7,6 @@ CUDA_VISIBLE_DEVICES=1 python main_v0201.py \
 --optim AdamW \
 --batch_size 32 \
 --align_type keywords \
---load "SEI-pretrain-model-best.pth" \
+--load "SEI-1-pretrain-model-best.pth" \
 --epochs 100 \
 --lr 5.0e-5
