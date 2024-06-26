@@ -2,16 +2,15 @@
 Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation
 
 The automated generation of imaging reports proves invaluable in alleviating the workload of radiologists. A clinically applicable reports generation algorithm should demonstrate its effectiveness in producing reports that accurately describe radiology findings and attend to patient-specific indications. In this paper, we introduce a novel method, **S**tructural **E**ntities extraction and patient indications **I**ncorporation (SEI) for chest X-ray report generation. Specifically, we employ a structural entities extraction (SEE) approach to eliminate presentation-style vocabulary in reports and improve the quality of factual entity sequences. This reduces the noise in the following cross-modal alignment module by aligning X-ray images with factual entity sequences in reports, thereby enhancing the precision of cross-modal alignment and further aiding the model in gradient-free retrieval of similar historical cases. Subsequently, we propose a cross-modal fusion network to integrate information from X-ray images, similar historical cases, and patient-specific indications. This process allows the text decoder to attend to discriminative features of X-ray images, assimilate historical diagnostic information from similar cases, and understand the examination intention of patients. This, in turn, assists in triggering the text decoder to produce high-quality reports. Experiments conducted on MIMIC-CXR validate the superiority of SEI over state-of-the-art approaches on both natural language generation and clinical efficacy metrics. 
-<div align=center><img src="results/figs/fig1.pdf"></div>
-![Image Title](results/figs/fig1.pdf){width=100%}
+<div align=center><img src="results/fig1.jpg"></div>
 
 # Experiments
 ## Main Results
-<div align=center><img src="main_results.png"></div>
+<div align=center><img src="results/main_results.jpg"></div>
 
 ## Ablation Study
-<div align=center><img src="ablation_study.png"></div>
-<div align=center><img src="results/figs/fig2.pdf"></div>
+<div align=center><img src="results/ablation_study.jpg"></div>
+<div align=center><img src="results/fig2.jpg"></div>
 
 
 ## Citations
@@ -110,7 +109,7 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data (Note
 
 4. Results on MIMIC-CXR are presented as follows:
 
-<div align=center><img src="sei_on_mimic_cxr.jpg"></div>
+<div align=center><img src="results/sei_on_mimic_cxr.jpg"></div>
 
 
 5. Next, the code for this project will be streamlined.
