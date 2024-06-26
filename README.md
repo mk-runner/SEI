@@ -29,7 +29,7 @@ If you use or extend our work, please cite our paper at MICCAI 2024.
 
 You can download checkpoints of FSE as follows:
 
-- For `MIMIC-CXR`, you can download checkpoints from [here](https://pan.baidu.com/s/15SW1k3xZ57S06FUeqpclAA), and its code is `MK13`; [🤗](https://huggingface.co/MK-runner/SEI/upload/main).
+- For `MIMIC-CXR`, you can download checkpoints from [Baidu Netdisk](https://pan.baidu.com/s/15SW1k3xZ57S06FUeqpclAA) (its code is `MK13`) and [huggingface 🤗](https://huggingface.co/MK-runner/SEI/upload/main).
 
 ## MIMIC-CXR Datasets
 
