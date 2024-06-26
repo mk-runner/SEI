@@ -6,7 +6,7 @@ CUDA_VISIBLE_DEVICES=1 python main_v0201.py \
 --version ft_100_top1 \
 --max_seq_len 100 \
 --epochs 50 \
---load "pretrain/model_best.pth" \
+--load "SEI-1-pretrain-model-best.pth" \
 --freeze_text_encoder \
 --sk_type keywords \
 --is_add_indication \
