@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=1 python main_finetune.py \
+--task pretrain_inference \
+--mimic_cxr_ann_path "/home/miao/data/Code/MSC-V1212-ablation-study/knowledge_encoder/mimic_cxr_annotation_sen.json" \
+--data_name mimic_cxr \
+--version cxr_pretrain_inference \
+--max_seq_len 100 \
+--optim AdamW \
+--batch_size 32 \
+--align_type keywords \
+--load "/home/miao/data/Code/MSC-V1212-ablation-study/results/mimic-cxr/pretrain/model_best.pth" \
+--epochs 100 \
+--lr 5.0e-5
