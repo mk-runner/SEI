@@ -5,7 +5,8 @@ The automated generation of imaging reports proves invaluable in alleviating the
 <div align=center><img src="results/fig1.jpg"></div>
 
 # Update
-- **2024-09-09**, Update the [poster](poster.pdf)
+- **2024-09-09**, Upload the [poster](poster.pdf)
+- **Soon**, update the repository to easily use.
 
 # Experiments
 ## Main Results
