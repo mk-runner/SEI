@@ -7,6 +7,7 @@ CUDA_VISIBLE_DEVICES=1 python ../main_v0201.py \
 --max_seq_len 100 \
 --epochs 30 \
 --load "SEI-1-finetune-model-best.pth" \
+--ckpt_zoo_dir "\home\data\checkpoints" \
 --sk_type keywords \
 --is_add_indication \
 --lr 5.0e-5 \
