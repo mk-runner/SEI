@@ -5,8 +5,9 @@ The automated generation of imaging reports proves invaluable in alleviating the
 <div align=center><img src="results/fig1.jpg"></div>
 
 # Update
-- **2024-09-09**, Upload the [poster](poster.pdf)
-- **Soon**, update the repository to easily use.
+- **2024-09-09**, Upload the [Poster](Poster.pdf)
+- **2024-09-19**, Update the repository to easily use.
+- **2024-09-19**, Update the [generated reports](scripts/results/mimic_cxr/test/ft_100_top1/test_predication.csv) for the MIMIC-CXR test set.
 
 # Experiments
 ## Main Results
@@ -58,6 +59,8 @@ You can download checkpoints of SEI as follows:
 ### Structural entities extraction (SEE) approach
 
 1. Config RadGraph environment based on `knowledge_encoder/factual_serialization.py`
+
+
    ===================environmental setting=================
     Basic Setup (One-time activity)
 
@@ -65,6 +68,7 @@ You can download checkpoints of SEI as follows:
     ```bash
    git clone https://github.com/dwadden/dygiepp.git
     ```
+    
    b. Navigate to the root of repo in your system and use the following commands to set the conda environment:
     ```bash
    conda create --name dygiepp python=3.7
@@ -73,15 +77,18 @@ You can download checkpoints of SEI as follows:
    pip install -r requirements.txt
    conda develop .   # Adds DyGIE to your PYTHONPATH
    ```
+
    c. Activate the conda environment:
     
     ```bash
    conda activate dygiepp
     ```
    
-2. Config `radgraph_path` and `ann_path` in `knowledge_encoder/see.py`. `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
-3. Run the `knowledge_encoder/see.py` to extract factual entity sequence for each report.
-4. Finally, the `annotation.json` becomes `mimic_cxr_annotation_sen.json` that is identical to `new_ann_file_name` variable in `see.py`
+3. Config `radgraph_path` and `ann_path` in `knowledge_encoder/see.py`. `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
+
+4. Run the `knowledge_encoder/see.py` to extract factual entity sequence for each report.
+   
+5. Finally, the `annotation.json` becomes `mimic_cxr_annotation_sen.json` that is identical to `new_ann_file_name` variable in `see.py`
 
 
 ### Conducting the first stage (i.e., training cross-modal alignment module)
@@ -91,18 +98,25 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data (Note
 ### Similar historical cases retrieval for each sample
 
 1. Config `--load` argument in `pretrain_inference_mimic_cxr.sh`. Note that the argument is the pre-trained model from the first stage.
+
 2. Run `bash pretrain_inference_mimic_cxr.sh` to retrieve similar historical cases for each sample, forming `mimic_cxr_annotation_sen_best_reports_keywords_20.json` (i.e., the `mimic_cxr_annotation_sen.json` becomes this `*.json` file).
 
 ### Conducting the second stage (i.e., training report generation module)
 
 
 1. Extract and preprocess the `indication section` in the radiology report.
-   a. Config `ann_path` and `report_dir` in `knowledge_encoder/preprocessing_indication_section.py`, and its value is `mimic_cxr_annotation_sen_best_reports_keywords_20.json`. 
-      Note that `report_dir` can be downloaded from [PhysioNet](https://physionet.org/content/mimic-cxr/2.0.0/). 
-   b. Run `knowledge_encoder/preprocessing_indication_section.py`, forming `mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json`
-2. Config `--load` argument in `finetune_mimic_cxr.sh`. Note that the argument is the pre-trained model from the first stage. Furthermore, `mimic_cxr_ann_path` is `mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json`
 
-3. Download these checkpoints. Notably, the `chexbert.pth` and `radgraph` are used to calculate CE metrics, and `bert-base-uncased` and `scibert\_scivocab\_uncased ` are pre-trained models for cross-modal fusion network and text encoder. Then put these checkpoints in the same local dir (e.g., "/home/data/checkpoints"), and configure the `--ckpt_zoo_dir /home/data/checkpoints` argument in `finetune_mimic_cxr.sh`
+   a. Config `ann_path` and `report_dir` in `knowledge_encoder/preprocessing_indication_section.py`, and its value is `mimic_cxr_annotation_sen_best_reports_keywords_20.json`. 
+      Note that `report_dir` can be downloaded from [PhysioNet](https://physionet.org/content/mimic-cxr/2.0.0/).
+   
+   b. Run `knowledge_encoder/preprocessing_indication_section.py`, forming `mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json`
+
+
+3. Config `--load` argument in `finetune_mimic_cxr.sh`. Note that the argument is the pre-trained model from the first stage. Furthermore, `mimic_cxr_ann_path` is `mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json`
+
+4. Download these checkpoints. Notably, the `chexbert.pth` and `radgraph` are used to calculate CE metrics, and `bert-base-uncased` and `scibert\_scivocab\_uncased ` are pre-trained models for cross-modal fusion network and text encoder. Then put these checkpoints in the same local dir (e.g., "/home/data/checkpoints"), and configure the `--ckpt_zoo_dir /home/data/checkpoints` argument in `finetune_mimic_cxr.sh`
+
+
 | ** Chekpoint                  ** | **Variable\_name** | ** Download                                                                        ** |
 | :------------------------------- | :----------------- | :------------------------------------------------------------------------------------ |
 | chexbert.pth                     | chexbert\_path     | [here](https://stanfordmedicine.app.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9)       |
