@@ -9,7 +9,7 @@
 
 
 # =========tokenizer config=======#
-"tokenizer_dir": "config/tokenizer/"
+"tokenizer_dir": "../config/tokenizer/"
 #"tokenizer_model": 'wordlevel'    # choices = ['wordlevel', 'wordpiece']
 #"tokenizer_type": 'uncased'       # choices = ["case", 'uncased']
 
@@ -21,22 +21,22 @@
 
 # ========= metrics checkpoint config =====#
 #"bertscore_checkpoint": "/home/20031211471/Data/checkpoints/roberta-large"
-"bertscore_checkpoint": "/home/miao/data/dataset/checkpoints/distilbert-base-uncased"
-"chexbert_checkpoint": "/home/miao/data/dataset/checkpoints/chexbert.pth"
-"chexbert_model_checkpoint": "/home/miao/data/dataset/checkpoints/bert-base-uncased"
-"chexbert_tokenizer_checkpoint": "/home/miao/data/dataset/checkpoints/bert-base-uncased"
-"radgraph_checkpoint": "/home/miao/data/dataset/checkpoints/radgraph"
+#"bertscore_checkpoint": "/home/miao/data/dataset/checkpoints/distilbert-base-uncased"
+#"chexbert_checkpoint": "/home/miao/data/dataset/checkpoints/chexbert.pth"
+#"chexbert_model_checkpoint": "/home/miao/data/dataset/checkpoints/bert-base-uncased"
+#"chexbert_tokenizer_checkpoint": "/home/miao/data/dataset/checkpoints/bert-base-uncased"
+#"radgraph_checkpoint": "/home/miao/data/dataset/checkpoints/radgraph"
 #"radgraph_reward_level": 'partial'    # ["simple", "partial", "complete", "all"]
 
 
 # =========model config===========#
 # ====visual encoder config====#
 #"visual_encoder": 'resnet101'     # choices = [resnet101, ViT-B-32]
-"resnet_checkpoint": '/home/miao/data/dataset/checkpoints/resnet101-5d3b4d8f.pth'
-"vit_checkpoint": '/home/miao/data/dataset/checkpoints/ViT-B-32.pt'
+# "resnet_checkpoint": '/home/miao/data/dataset/checkpoints/resnet101-5d3b4d8f.pth'
+# "vit_checkpoint": ''
 
 # ====language model config===#
-"text_checkpoint": '/home/miao/data/dataset/checkpoints/scibert_scivocab_uncased'
+# "text_checkpoint": '/home/miao/data/dataset/checkpoints/scibert_scivocab_uncased'
 #"text_decoder": 'r2gen'           # choices = [CMN, r2gen, bert]
 
 # text encoder config
@@ -45,7 +45,7 @@
 
 # text encoder and image encoder fusion module config
 "fusion_num_heads": 8
-"fusion_checkpoint": "/home/miao/data/dataset/checkpoints/bert-base-uncased"
+#"fusion_checkpoint": "bert-base-uncased"
 
 
 # text decoder (bert) config
