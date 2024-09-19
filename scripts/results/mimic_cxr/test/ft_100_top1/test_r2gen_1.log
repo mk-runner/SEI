@@ -1,0 +1,111 @@
+start load data...
+mimic_cxr_image_dir:	/home/miao/data/dataset/MIMIC-CXR/files/
+iu_xray_image_dir:	/home/miao/data/dataset/iu_xray/images/
+num_workers:	10
+tokenizer_dir:	../config/tokenizer/
+sk_analysis_dir:	results/visual_specific_knowledge/current_model/
+encoder_hidden_size:	768
+encoder_num_hidden_layers:	6
+fusion_num_heads:	8
+decoder_hidden_size:	2048
+decoder_num_attention_heads:	8
+decoder_num_hidden_layers:	3
+num_heads:	8
+num_layers:	3
+d_model:	512
+d_ff:	512
+d_vf:	2048
+dropout:	0.0
+drop_prob_lm:	0.5
+logit_layers:	1
+use_bn:	0
+rm_num_slots:	3
+rm_num_heads:	8
+rm_d_model:	512
+sample_method:	beam_search
+length_penalty:	
+diversity_lambda:	0.5
+suppress_UNK:	4
+temperature:	1.0
+group_size:	1
+sample_n:	1
+output_logsoftmax:	1
+decoding_constraint:	0
+block_trigrams:	1
+topk:	32
+cmm_size:	2048
+cmm_dim:	512
+beam_size:	3
+output_dim:	2048
+proj_num_heads:	8
+instance_temp:	0.5
+region_temp:	0.5
+seed:	9233
+result_dir:	results/mimic_cxr/test/ft_100_top1
+save_period:	1
+early_stop:	10
+monitor_metric_curves:	True
+monitor_report:	True
+monitor_image:	True
+weight_decay:	0.0001
+amsgrad:	True
+step_size:	10
+gamma:	0.5
+n_gpu:	1
+ft_lr_monitor_metric:	F1-Radgraph-partial
+ft_monitor_mode:	max
+ft_monitor_metric:	RCB
+pt_monitor_mode:	min
+pt_monitor_metric:	all_loss
+pt_lr_monitor_metric:	all_loss
+task:	test
+data_name:	mimic_cxr
+mimic_cxr_ann_path:	/home/miao/data/dataset/MIMIC-CXR/mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json
+iu_xray_ann_path:	None
+text_decoder:	r2gen
+visual_encoder:	resnet101
+tokenizer_model:	wordlevel
+tokenizer_type:	uncased
+max_seq_len:	100
+freeze_image_encoder:	False
+freeze_text_encoder:	False
+is_save_checkpoint:	False
+sk_type:	keywords
+sk_topk:	1
+is_add_indication:	True
+sk_fusion_strategy:	cat
+sk_fusion_num_layers:	1
+sk_file_name:	_v0107_
+optim:	RAdam
+lr_scheduler:	ReduceLROnPlateau
+lr:	5e-05
+epochs:	30
+batch_size:	16
+resume:	None
+load:	/home/miao/data/Code/Third/results/mimic_cxr/finetune/ft_100_top1_get_checkpoint/checkpoint/current_checkpoint_28.pth
+version:	ft_100_top1
+align_type:	keywords
+align_loss:	multi-level
+ckpt_zoo_dir:	/home/miao/data/dataset/checkpoints
+chexbert_path:	/home/miao/data/dataset/checkpoints/chexbert.pth
+bert_path:	/home/miao/data/dataset/checkpoints/bert-base-uncased
+radgraph_path:	/home/miao/data/dataset/checkpoints/radgraph
+resnet_path:	/home/miao/data/dataset/checkpoints/resnet101-5d3b4d8f.pth
+scibert_path:	/home/miao/data/dataset/checkpoints/scibert_scivocab_uncased
+config:	../config/finetune_config.yaml
+image_dir:	/home/miao/data/dataset/MIMIC-CXR/files/
+ann_path:	/home/miao/data/dataset/MIMIC-CXR/mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json
+device:	cuda
+monitor_mode:	max
+monitor_metric:	RCB
+lr_monitor_metric:	F1-Radgraph-partial
+vocab_size:	9841
+
+the number of train_data (indication-not_indication): None-None, valid_data (indication-not_indication): None-None, test_data (indication-not_indication): 2225-1627, 
+finish instantiate model!, Trainable parameters: 353.906866M
+start test!
+Loading checkpoint: /home/miao/data/Code/Third/results/mimic_cxr/finetune/ft_100_top1_get_checkpoint/checkpoint/current_checkpoint_28.pth ...
+test dataset with indication section and similar historical cases+++++++++++++++++++
+test dataset only with similar historical cases+++++++++++++++++++
+test metrics: F1-Radgraph-partial: 0.24924142641748523; chexbert_5_micro_f1: 0.541370928536704; chexbert_5_macro_f1: 0.47330844688169293; chexbert_all_micro_f1: 0.4596592398427261; chexbert_all_macro_f1: 0.294039167733957; BLEU_1: 0.38227389247148774; BLEU_2: 0.24752470223210515; BLEU_3: 0.17708226206503322; BLEU_4: 0.13474548670900785; METEOR: 0.15808935378788544; ROUGE_L: 0.2988996181807063; CIDer: 0.21071887779781728; 
+#############################################################

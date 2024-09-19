@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=1 python ../main_v0201.py \
+--task test \
+--data_name mimic_cxr \
+--mimic_cxr_ann_path "MIMIC-CXR/mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json" \
+--ft_monitor_metric RCB \
+--version ft_100_top1 \
+--max_seq_len 100 \
+--epochs 30 \
+--load "SEI-1-finetune-model-best.pth" \
+--sk_type keywords \
+--is_add_indication \
+--lr 5.0e-5 \
+--sk_topk 1 \
+--optim RAdam \
+--batch_size 16
