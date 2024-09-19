@@ -7,7 +7,7 @@ The automated generation of imaging reports proves invaluable in alleviating the
 # Update
 - **2024-09-09**, Upload the [Poster](Poster.pdf)
 - **2024-09-19**, Update the repository to easily use.
-- **2024-09-19**, Update the [generated reports](scripts/results/mimic_cxr/test/ft_100_top1) for the MIMIC-CXR test set.
+- **2024-09-19**, Update the [generated reports](scripts/results/mimic_cxr/test/ft_100_top1/) for the MIMIC-CXR test set.
 
 # Experiments
 ## Main Results
