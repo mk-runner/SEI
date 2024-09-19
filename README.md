@@ -120,7 +120,7 @@ You can download checkpoints of SEI as follows:
 
 <center>
       
-| ** Chekpoint                  ** | **Variable\_name** | ** Download                                                                        ** |
+| **Chekpoint**                    | **Variable\_name** | **Download**                                                                          |
 | :------------------------------- | :----------------- | :------------------------------------------------------------------------------------ |
 | chexbert.pth                     | chexbert\_path     | [here](https://stanfordmedicine.app.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9)       |
 | bert-base-uncased                | bert\_path         | [huggingface](https://huggingface.co/google-bert/bert-base-uncased)                   |
