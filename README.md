@@ -22,13 +22,14 @@ The automated generation of imaging reports proves invaluable in alleviating the
 If you use or extend our work, please cite our paper at MICCAI 2024.
 
 ```
-@misc{liu2024structural,
-      title={Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation}, 
-      author={Kang Liu and Zhuoqi Ma and Xiaolu Kang and Zhusi Zhong and Zhicheng Jiao and Grayson Baird and Harrison Bai and Qiguang Miao},
-      year={2024},
-      eprint={2405.14905},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@InProceedings{ Liu_MICCAI2024,
+      author = { Liu, Kang and Ma, Zhuoqi and Kang, Xiaolu and Zhong, Zhusi and Jiao, Zhicheng and Baird, Grayson and Bai, Harrison and Miao, Qiguang },
+      title = { Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation }, 
+      booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+      year = {2024},
+      publisher = {Springer Nature Switzerland}
+      volume = { 3 }
+      month = {October},
 }
 ```
 
