@@ -117,13 +117,14 @@ You can download checkpoints of SEI as follows:
 
 3. Download these checkpoints. Notably, the `chexbert.pth` and `radgraph` are used to calculate CE metrics, and `bert-base-uncased` and `scibert\_scivocab\_uncased ` are pre-trained models for cross-modal fusion network and text encoder. Then put these checkpoints in the same local dir (e.g., "/home/data/checkpoints"), and configure the `--ckpt_zoo_dir /home/data/checkpoints` argument in `finetune_mimic_cxr.sh`
 
-
+<div class="center">
 | ** Chekpoint                  ** | **Variable\_name** | ** Download                                                                        ** |
 | :------------------------------- | :----------------- | :------------------------------------------------------------------------------------ |
 | chexbert.pth                     | chexbert\_path     | [here](https://stanfordmedicine.app.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9)       |
 | bert-base-uncased                | bert\_path         | [huggingface](https://huggingface.co/google-bert/bert-base-uncased)                   |
 | radgraph                         | radgraph\_path     | [PhysioNet](https://physionet.org/content/radgraph/1\.0.0/)                           |
 | scibert\_scivocab\_uncased       | scibert\_path      | [huggingface](https://huggingface.co/allenai/scibertsscivocabuuncased)                |
+</div>
 
 4. Run `bash finetune_mimic_cxr.sh` to generate reports based on similar historical cases.
 
