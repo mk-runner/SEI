@@ -698,7 +698,7 @@ def extract_mimic_factual_entity_sequence(mimic_ann_path, radgraph_model_path, n
 
 if __name__ == '__main__':
     # radgraph from official checkpoint
-    radgraph_model_path = '/home/miao/data/dataset/checkpoints/radgraph/model.tar.gz'
+    radgraph_path = '/home/miao/data/dataset/checkpoints/radgraph/model.tar.gz'
     new_ann_file_name = 'mimic_cxr_annotation_sen.json'
     root = '/home/miao/data/dataset/MIMIC-CXR'
     # note annotation.json file can be downloaded from "https://pan.baidu.com/s/1bMbee6XuyXhhLUZM8kfbEw,
