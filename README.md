@@ -24,21 +24,7 @@ If you use or extend our work, please cite our paper at MICCAI 2024.
 
 ```
 @InProceedings{liu-sei-miccai-2024,
-      author={Liu, Kang
-      and Ma, Zhuoqi
-      and Kang, Xiaolu
-      and Zhong, Zhusi
-      and Jiao, Zhicheng
-      and Baird, Grayson
-      and Bai, Harrison
-      and Miao, Qiguang},
-      editor={Linguraru, Marius George
-      and Dou, Qi
-      and Feragen, Aasa
-      and Giannarou, Stamatia
-      and Glocker, Ben
-      and Lekadir, Karim
-      and Schnabel, Julia A.},
+      author={Liu, Kang and Ma, Zhuoqi and Kang, Xiaolu and Zhong, Zhusi and Jiao, Zhicheng and Baird, Grayson and Bai, Harrison and Miao, Qiguang},
       title={Structural Entities Extraction and Patient Indications Incorporation for Chest X-Ray Report Generation},
       booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
       year={2024},
