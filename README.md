@@ -1,12 +1,12 @@
 # SEI
-Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation
+[Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation](https://link.springer.com/chapter/10.1007/978-3-031-72384-1_41)
 
 The automated generation of imaging reports proves invaluable in alleviating the workload of radiologists. A clinically applicable reports generation algorithm should demonstrate its effectiveness in producing reports that accurately describe radiology findings and attend to patient-specific indications. In this paper, we introduce a novel method, **S**tructural **E**ntities extraction and patient indications **I**ncorporation (SEI) for chest X-ray report generation. Specifically, we employ a structural entities extraction (SEE) approach to eliminate presentation-style vocabulary in reports and improve the quality of factual entity sequences. This reduces the noise in the following cross-modal alignment module by aligning X-ray images with factual entity sequences in reports, thereby enhancing the precision of cross-modal alignment and further aiding the model in gradient-free retrieval of similar historical cases. Subsequently, we propose a cross-modal fusion network to integrate information from X-ray images, similar historical cases, and patient-specific indications. This process allows the text decoder to attend to discriminative features of X-ray images, assimilate historical diagnostic information from similar cases, and understand the examination intention of patients. This, in turn, assists in triggering the text decoder to produce high-quality reports. Experiments conducted on MIMIC-CXR validate the superiority of SEI over state-of-the-art approaches on both natural language generation and clinical efficacy metrics. 
 <div align=center><img src="results/fig1.jpg"></div>
 
 # Update
 - **2024-09-09**, Upload the [Poster](Poster.pdf)
-- **2024-09-19**, Update the repository to easily use.
+- **2024-09-19**, Update the repository to make it easy.
 - **2024-09-19**, Update the [generated reports](scripts/results/mimic_cxr/test/ft_100_top1/) for the MIMIC-CXR test set.
 
 # Experiments
@@ -23,15 +23,32 @@ The automated generation of imaging reports proves invaluable in alleviating the
 If you use or extend our work, please cite our paper at MICCAI 2024.
 
 ```
-@InProceedings{ Liu_MICCAI2024,
-      author = { Liu, Kang and Ma, Zhuoqi and Kang, Xiaolu and Zhong, Zhusi and Jiao, Zhicheng and Baird, Grayson and Bai, Harrison and Miao, Qiguang },
-      title = { Structural Entities Extraction and Patient Indications Incorporation for Chest X-ray Report Generation }, 
-      booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
-      year = {2024},
-      publisher = {Springer Nature Switzerland}
-      volume = { 3 }
-      month = {October},
+@InProceedings{liu-sei-miccai-2024,
+      author={Liu, Kang
+      and Ma, Zhuoqi
+      and Kang, Xiaolu
+      and Zhong, Zhusi
+      and Jiao, Zhicheng
+      and Baird, Grayson
+      and Bai, Harrison
+      and Miao, Qiguang},
+      editor={Linguraru, Marius George
+      and Dou, Qi
+      and Feragen, Aasa
+      and Giannarou, Stamatia
+      and Glocker, Ben
+      and Lekadir, Karim
+      and Schnabel, Julia A.},
+      title={Structural Entities Extraction and Patient Indications Incorporation for Chest X-Ray Report Generation},
+      booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+      year={2024},
+      publisher={Springer Nature Switzerland},
+      address={Cham},
+      pages={433--443},
+      isbn={978-3-031-72384-1},
+      doi={10.1007/978-3-031-72384-1_41}
 }
+
 ```
 
 ## Requirements
