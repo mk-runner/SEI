@@ -690,13 +690,13 @@ if __name__ == '__main__':
     # radgraph  from official checkpoint
     radgraph_model_path = '/home/miao/data/dataset/checkpoints/radgraph/model.tar.gz'
 
-    # root = '/media/miao/data/Dataset/MIMIC-CXR'
-    # ann_path = os.path.join(root, 'annotation.json')
+    root = '/media/miao/data/Dataset/MIMIC-CXR'
+    ann_path = os.path.join(root, 'annotation.json')
     # sen_ann_path = 'mimic_cxr_annotation_sen.json'
     # # extract mimic-cxr factual serialization
-    # radgraph = RadGraphNER(ann_path=ann_path, is_get_output=True, is_mimic=True, model_path=radgraph_model_path, cuda=1)
-    # factual_serialization = radgraph.preprocess_mimic_radgraph_output()
-    # get_mimic_cxr_annotations(ann_path, factual_serialization, sen_ann_path)
+    radgraph = RadGraphNER(ann_path=ann_path, is_get_output=True, is_mimic=True, model_path=radgraph_model_path, cuda=1)
+    factual_serialization = radgraph.preprocess_mimic_radgraph_output()
+    get_mimic_cxr_annotations(ann_path, factual_serialization, sen_ann_path)
 
     # extract item_report factual serialization
     # hyps = ["patient is status post median sternotomy and cabg . the lungs are clear without focal consolidation . no pleural effusion or pneumothorax is seen . the cardiac and mediastinal silhouettes are unremarkable . no pulmonary edema is seen .",
@@ -720,5 +720,5 @@ if __name__ == '__main__':
 
     # for SEI plot attention for factual serialization
     # extract factual serialization for predications
-    plot_attention_for_sei_extract_fs()
+    # plot_attention_for_sei_extract_fs()
     # get_plot_cases_factual_serialization()
