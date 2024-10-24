@@ -118,7 +118,7 @@ You can download checkpoints of SEI as follows:
 
 2. Config `--load` argument in `finetune_mimic_cxr.sh`. Note that the argument is the pre-trained model from the first stage. Furthermore, `mimic_cxr_ann_path` is `mimic_cxr_annotation_sen_best_reports_keywords_20_all_components_with_fs_v0227.json`
 
-3. Download these checkpoints. Notably, the `chexbert.pth` and `radgraph` are used to calculate CE metrics, and `bert-base-uncased` and `scibert\_scivocab\_uncased ` are pre-trained models for cross-modal fusion network and text encoder. Then put these checkpoints in the same local dir (e.g., "/home/data/checkpoints"), and configure the `--ckpt_zoo_dir /home/data/checkpoints` argument in `finetune_mimic_cxr.sh`
+3. Download these checkpoints. Notably, the `chexbert.pth` and `radgraph` are used to calculate CE metrics, and `bert-base-uncased` and `scibert_scivocab_uncased ` are pre-trained models for cross-modal fusion network and text encoder. Then put these checkpoints in the same local dir (e.g., "/home/data/checkpoints"), and configure the `--ckpt_zoo_dir /home/data/checkpoints` argument in `finetune_mimic_cxr.sh`
 
 <div style="margin: 0 auto; width: fit-content;">
       
