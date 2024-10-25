@@ -87,6 +87,7 @@ You can download checkpoints of SEI as follows:
     ```bash
    conda activate dygiepp
     ```
+    Notably, for our RadGraph environment, you can refer to `knowledge_encoder/radgraph_requirements.yml`.
    
 2. Config `radgraph_path` and `ann_path` in `knowledge_encoder/see.py`. `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
 
