@@ -9,41 +9,12 @@ The automated generation of imaging reports proves invaluable in alleviating the
 - **2024-09-19**, Update the repository to make it easy.
 - **2024-09-19**, Update the [generated reports](scripts/results/mimic_cxr/test/ft_100_top1/) for the MIMIC-CXR test set.
 
-# Experiments
-## Main Results
-<div align=center><img src="results/main_results.jpg"></div>
-
-## Ablation Study
-<div align=center><img src="results/ablation_study.jpg"></div>
-<div align=center><img src="results/fig2.jpg"></div>
-
-
-## Citations
-
-If you use or extend our work, please cite our paper at MICCAI 2024.
-
-```
-@InProceedings{liu-sei-miccai-2024,
-      author={Liu, Kang and Ma, Zhuoqi and Kang, Xiaolu and Zhong, Zhusi and Jiao, Zhicheng and Baird, Grayson and Bai, Harrison and Miao, Qiguang},
-      title={Structural Entities Extraction and Patient Indications Incorporation for Chest X-Ray Report Generation},
-      booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
-      year={2024},
-      publisher={Springer Nature Switzerland},
-      address={Cham},
-      pages={433--443},
-      isbn={978-3-031-72384-1},
-      doi={10.1007/978-3-031-72384-1_41}
-}
-
-```
-
 ## Requirements
 
 - `torch==2.1.2+cu118`
 - `transformers==4.23.1`
 - `torchvision==0.16.2+cu118`
 - Due to the specific environment of RadGraph,  please refer to `knowledge_encoder/factual serialization. py` for the environment of the structural entities approach.
-
 
 ## Checkpoints
 
@@ -149,6 +120,35 @@ You can download checkpoints of SEI as follows:
 
 
 5. Next, the code for this project will be streamlined.
+
+
+# Experiments
+## Main Results
+<div align=center><img src="results/main_results.jpg"></div>
+
+## Ablation Study
+<div align=center><img src="results/ablation_study.jpg"></div>
+<div align=center><img src="results/fig2.jpg"></div>
+
+
+## Citations
+
+If you use or extend our work, please cite our paper at MICCAI 2024.
+
+```
+@InProceedings{liu-sei-miccai-2024,
+      author={Liu, Kang and Ma, Zhuoqi and Kang, Xiaolu and Zhong, Zhusi and Jiao, Zhicheng and Baird, Grayson and Bai, Harrison and Miao, Qiguang},
+      title={Structural Entities Extraction and Patient Indications Incorporation for Chest X-Ray Report Generation},
+      booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+      year={2024},
+      publisher={Springer Nature Switzerland},
+      address={Cham},
+      pages={433--443},
+      isbn={978-3-031-72384-1},
+      doi={10.1007/978-3-031-72384-1_41}
+}
+
+```
 
 
 ## Acknowledgement
