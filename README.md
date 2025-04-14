@@ -45,7 +45,7 @@ You can download checkpoints of SEI as follows:
    git clone https://github.com/dwadden/dygiepp.git
     ```
     
-   b. Navigate to the root of repo in your system and use the following commands to set the conda environment:
+   b. Navigate to the root of the repo in your system and use the following commands to set the conda environment:
     ```bash
    conda create --name dygiepp python=3.7
    conda activate dygiepp
@@ -61,9 +61,9 @@ You can download checkpoints of SEI as follows:
     ```
     Notably, for our RadGraph environment, you can refer to `knowledge_encoder/radgraph_requirements.yml`.
    
-2. Config `radgraph_path` and `ann_path` in `knowledge_encoder/see.py`. `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
+2. Configure `radgraph_path` and `ann_path` in `knowledge_encoder/see.py`. The `ann_path` corresponds to the local file path to the medical reports. The `radgraph_path` can be obtained directly from [PhysioNet](https://physionet.org/content/radgraph/1\.0.0/).
 
-3. Run the `knowledge_encoder/see.py` to extract factual entity sequence for each report.
+3. Run the `knowledge_encoder/see.py` to extract the factual entity sequence for each report.
    
 4. Finally, the `annotation.json` becomes `mimic_cxr_annotation_sen.json` that is identical to `new_ann_file_name` variable in `see.py`
 
@@ -72,7 +72,7 @@ You can download checkpoints of SEI as follows:
 
 1. Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data (Note that the `mimic_cxr_ann_path` is `mimic_cxr_annotation_sen.json`).
 
-### Similar historical cases retrieval for each sample
+### Retrieval of similar historical cases for each sample
 
 1. Config `--load` argument in `pretrain_inference_mimic_cxr.sh`. Note that the argument is the pre-trained model from the first stage.
 
